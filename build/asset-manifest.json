@@ -1,0 +1,16 @@
+{
+  "main.css": "/static/css/main.e8e1e90b.chunk.css",
+  "main.js": "/static/js/main.9faebf3d.chunk.js",
+  "main.js.map": "/static/js/main.9faebf3d.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
+  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
+  "static/js/2.ec944ae0.chunk.js": "/static/js/2.ec944ae0.chunk.js",
+  "static/js/2.ec944ae0.chunk.js.map": "/static/js/2.ec944ae0.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.6cca514d20b5a47f9e184379b7fc6233.js": "/precache-manifest.6cca514d20b5a47f9e184379b7fc6233.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.e8e1e90b.chunk.css.map": "/static/css/main.e8e1e90b.chunk.css.map",
+  "static/media/1192646-planet-mars-wallpaper-2600-x-1600-4-k.png": "/static/media/1192646-planet-mars-wallpaper-2600-x-1600-4-k.46d153b9.png",
+  "static/media/1192646-planet-mars-wallpaper-2600-x-1600-4-k@2x.png": "/static/media/1192646-planet-mars-wallpaper-2600-x-1600-4-k@2x.390c5222.png",
+  "static/media/1192646-planet-mars-wallpaper-2600-x-1600-4-k@3x.png": "/static/media/1192646-planet-mars-wallpaper-2600-x-1600-4-k@3x.4d5bcf70.png"
+}

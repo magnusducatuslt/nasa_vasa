@@ -1,0 +1,165 @@
+.App {
+  width: 1440px;
+  height: 2176.3px;
+  background-color: #000000;
+}
+.header {
+  width: 1440px;
+  height: 259px;
+}
+.-planet-mars-wallpaper-2600x1600-4k {
+    width: 1440px;
+    height: 259px;
+    object-fit: contain;
+    mix-blend-mode: luminosity;
+  }
+  .Mars {
+    width: 375px;
+    height: 159px;
+    font-family: Montserrat;
+    font-size: 130px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 10.1px;
+    color: #ffffff;
+  }
+  .statistics {
+    display:flex;
+    flex-flow: row;
+    height: 110px;
+  }
+ .statistics__c {
+    width:238px;
+  }
+  .statistics__km {
+    width:160px;
+  }
+  .statistics__mass {
+    width: 197px;
+  }
+  .statisctis__body {
+    display: flex;
+    flex-flow: row;
+  }
+  .statistics__valueKm{
+    height: 73px;
+    background-image: linear-gradient(to right, #eeeeee, #e3e3e3 51%, #fef0f0 98%);
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.6px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .Million-km-of-earth {
+    width: 160px;
+    height: 32px;
+    opacity: 0.5;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    color: #ffffff;
+  }
+  .statistics__symbol_Decs {
+    width: 39px;
+    height: 73px;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.6px;
+    color: #ffffff;
+  }
+  .statistics__valueC  {
+    width: 101px;
+    height: 73px;
+    background-image: linear-gradient(to right, #eeeeee, #e3e3e3 51%, #fef0f0 98%);
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.6px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .statistics__symbolContainer{
+    width: 98px;
+    height: 73px;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.6px;
+    color: #e01050;
+  }
+  .Temperature-on-the-p, .f-the-mass-of-the-E {
+    width: 160px;
+    height: 32px;
+    opacity: 0.5;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.1px;
+    color: #ffffff;
+  }
+  .statistics__valueMass{
+    width: 124px;
+    height: 73px;
+    background-image: linear-gradient(to right, #eeeeee, #e3e3e3 51%, #fef0f0 98%);
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.6px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .statistics__symbolMass  {
+    width: 73px;
+    height: 73px;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.6px;
+    color: #e01050;
+  }
+  .images-container {
+    display:flex;
+    flex-flow: row;
+  }
+  .Rectangle {
+    width: 350px;
+    height: 350px;
+  }
+  .Rectangle_plus {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0.3;
+  }
