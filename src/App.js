@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './assets/css/app.css';
+import './assets/css/app.1.css';
 import {
   Header, Title, Statistics, Image,
 } from './components/index.jsx';
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Title />
+        <Title text={'Mars'} name={'Mars'} />
         <div className="statistics">
           <Statistics
             parentBlockName={'statistics__km'}
@@ -40,11 +40,35 @@ class App extends Component {
             <div className="statistics__symbolMass">%</div>
           </Statistics>
         </div>
+        <Title name={'Curiosity-Rover'} text={'Curiosity Rover'} />
+        <Title
+          name={'With-its-rover-named'}
+          text={
+            'With its rover named Curiosity, Mars Science Laboratory mission is part of NASA\'s Mars Exploration Program, a long-term effort of robotic exploration of the red planet. Curiosity was designed to assess whether Mars ever had an environment able to support small life forms called microbes. In other words, its mission is to determine the planet\'s "habitability."'
+          }
+        />
         <div className="images-container">
           <Image source={ImagesTest} name="Rectangle" />
           <Image source={ImagesTest} name="Rectangle" />
-          <Image source={ImagesTest} name="Rectangle_plus" />
+          <div className="Rectangle_plus">
+          <Image source={ImagesTest} name="image-container__image" />
+          <Title
+          name={'image-container__plus'}
+          text={"+"}
+        />
+          </div>
+          
         </div>
+        <Title
+          name={'Mars-Science-Laborat'}
+          text={"Mars Science Laboratory will study Mars' habitability"}
+        />
+        <Title
+          name={'To-find-out-the-rov'}
+          text={
+            'To find out, the rover carries the biggest, most advanced suite of instruments for scientific studies ever sent to the martian surface. The rover will analyze samples scooped from the soil and drilled from rocks. The record of the planet\'s climate and geology is essentially "written in the rocks and soil" -- in their formation, structure, and chemical composition. The rover\'s onboard laboratory will study rocks, soils, and the local geologic setting in order to detect chemical building blocks of life (e.g., forms of carbon) on Mars and will assess what the martian environment was like in the past.'
+          }
+        />
       </div>
     );
   }
